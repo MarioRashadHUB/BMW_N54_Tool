@@ -2,7 +2,6 @@ import streamlit as st
 import pandas as pd
 from PIL import Image
 
-df = pd.read_csv('cs_data_cleaned.csv')
 
 st.title('BMW N54 Maintance Check Tool')
 
@@ -12,15 +11,19 @@ st.image(image, caption='Maintenance Before Full Sending',use_column_width=True)
 st.subheader("Please answer the following:")
 
 car_model = st.selectbox(
-        'What model is your car?',
-        ('135i','335i', '535i'))
+        'What model is your vehicle?',
+        ('','135i','335i', '535i'))
 
-st.write('You selected:', car_model)
+car_year = st.number_input('Production year:')
 
-car_mileage = st.number_input('Mileage')
+trans_type = st.selectbox(
+        'Is the vehicle automatic or manual?',
+        ('', 'Automatic', 'Manual'))
+
+car_mileage = st.number_input('Mileage:')
 st.write('Your ' + car_model + ' has a mileage of ', car_mileage)
 
-st.subheader('Additional Information:')
+st.subheader('Service History:')
 
 oil_change = st.radio(
     "Has the oil been serviced within the last 5000 miles?", options=["Yes", "No"])
@@ -32,7 +35,7 @@ turbo_check = st.radio(
     "Have both turbochargers been serviced?", options=["Yes", "No"])
 
 injector_check = st.radio(
-    "Are all injectors index 12?", options=["Yes", "No"])
+    "Have all injectors been upgraded to Index 12?", options=["Yes", "No"])
 
 water_pump_check = st.radio(
     "Has the water pump been serviced?", options=["Yes", "No"])
@@ -45,6 +48,7 @@ oilpan_gasket_check = st.radio(
 
 valve_cover_check = st.radio(
     "Has the valve cover and gasket been serviced?", options=["Yes", "No"])
+
 
 # syntax for later
 #if car_mileage == 0:
