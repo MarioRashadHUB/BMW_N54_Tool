@@ -3,7 +3,7 @@ import pandas as pd
 from PIL import Image
 
 
-st.title('BMW N54 Maintenance Checker')
+st.title('BMW N54 Maintenance Tool')
 
 image = Image.open('./images/flick.jpg')
 st.image(image, caption='Maintenance Before Full Sending',use_column_width=True)
