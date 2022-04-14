@@ -17,7 +17,7 @@ car_model = st.selectbox(
 car_year = st.number_input('Production year:')
 
 trans_type = st.selectbox(
-        'Is the vehicle automatic or manual?',
+        'Transmission:',
         ('', 'Automatic', 'Manual'))
 
 car_mileage = st.number_input('Mileage:')
