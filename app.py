@@ -5,7 +5,7 @@ from PIL import Image
 
 st.title('BMW N54 Maintance Check Tool')
 
-image = Image.open('C:/Users/Mario/Documents/Personal Data Science Projects/BMW_N54_Tool/images/flick.jpg')
+image = Image.open('./images/flick.jpg')
 st.image(image, caption='Maintenance Before Full Sending',use_column_width=True)
     
 st.subheader("Please answer the following:")
