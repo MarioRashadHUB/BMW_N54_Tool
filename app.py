@@ -106,7 +106,7 @@ else:
 
 
     
-st.subheader('Estimation of Maintence cost:')
+st.subheader('Estimation of Maintenance cost:')
     
 st.write(oil_change_cost + hpfp_cost + turbos_cost + injectors_cost + water_pump_cost
          + walnut_blast_cost + oilpan_gasket_cost + valve_cover_gasket_cost)
