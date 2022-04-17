@@ -15,7 +15,7 @@ https://share.streamlit.io/mariorashadhub/bmw_n54_tool/app.py
 
 ## Data
 
-This program is applicable for every N54 car made by BMW. Starting from when the engine platform was introduced in 2006, all the way to the last and most powerful revision of the motor in 2016. The list is as follows:
+This program is applicable for every N54 car made by BMW. This engine platform debuted in 2006 and has had six different variations. The last and most powerful revision of the motor came from the infamous Alpina manufacture in 2016. The list is as follows:
 
 *	135
 *	335i
