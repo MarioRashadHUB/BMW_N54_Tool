@@ -16,7 +16,7 @@ valvecover_gasket_cost = 0
 st.title('BMW N54 Maintenance Tool')
 
 image = Image.open('./images/flick.jpg')
-st.image(image, caption='Maintenance Before Full Sending',use_column_width=True)
+st.image(image, caption='The German 2JZ',use_column_width=True)
     
 st.subheader("Please answer the following:")
 
