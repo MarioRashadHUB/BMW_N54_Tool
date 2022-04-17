@@ -13,7 +13,7 @@ oilpan_gasket_cost = 0
 valvecover_gasket_cost = 0
 
 
-st.title('BMW N54 Maintenance Tool')
+st.title('BMW N54 Maintenance Tool v1.0')
 
 image = Image.open('./images/flick.jpg')
 st.image(image, caption='The German 2JZ',use_column_width=True)
