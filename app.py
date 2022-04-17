@@ -12,7 +12,6 @@ walnut_blast_cost = 0
 oilpan_gasket_cost = 0
 valvecover_gasket_cost = 0
 
-
 st.title('BMW N54 Maintenance Tool v1.0')
 
 image = Image.open('./images/flick.jpg')
@@ -104,18 +103,12 @@ if valve_cover_gasket_check == "Yes":
 else:
     valve_cover_gasket_cost = 1100
 
+current_cost = oil_change_cost + hpfp_cost + turbos_cost + injectors_cost + water_pump_cost+ walnut_blast_cost + oilpan_gasket_cost + valve_cover_gasket_cost
 
-    
 st.subheader('Estimation of Maintenance cost:')
-    
-st.write(oil_change_cost + hpfp_cost + turbos_cost + injectors_cost + water_pump_cost
-         + walnut_blast_cost + oilpan_gasket_cost + valve_cover_gasket_cost)
 
-# syntax for later
-#if car_mileage == 0:
-#    st.write('')
-#elif car_mileage >= 1 and car_mileage < 100000:
-#    st.write('car is young af')
+st.markdown(f'<h6 style="color:#85bb65;font-size:36px;">{"$"}{current_cost}</h1>', unsafe_allow_html=True)
 
-    
-
+st.markdown(f'<h6 style="color:#b11226;font-size:12px;">{"DISCLAIMER! These estimates are NOT 100% and are not to be used for any other intention other then for educational purposes."}</h1>', unsafe_allow_html=True)
+st.markdown(f'<h6 style="color:#b11226;font-size:12px;">{"The purpose of this web application is to give those that are new to the N54 platform a quick estimation idea of what potential maintence costs for these vehicles could be at certain shops."}</h1>', unsafe_allow_html=True)
+st.markdown(f'<h6 style="color:#b11226;font-size:12px;">{"These are NOT DIY (Do it yourself) estimates. These are ROUGH estimates for those who will be having shops work on their cars with NEW parts."}</h1>', unsafe_allow_html=True)
