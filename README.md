@@ -1,4 +1,4 @@
-# BMW N54 Maintenance Web Application: Project Overview
+# BMW N54 (German 2JZ) Maintenance Web Application: Project Overview
 * Developed a web application for current and potential BMW N54 car owners to give a quick estimation of potential maintance costs.
 * Estimations were created through research on various popular BMW enthuasist forums such as N54Tech, e90Post, bmwtuning.co.
 * Engineered features in the application to allow customization by the user to select options that reflect their vehicle for more personalized results.
@@ -15,9 +15,16 @@ https://share.streamlit.io/mariorashadhub/bmw_n54_tool/app.py
 
 ## Data
 
-## Data Cleaning
+This program is applicable for every N54 car made by BMW. This engine platform debuted in 2006 and has had six different variations. The last and most powerful revision of the motor came from the infamous Alpina manufacture in 2016. The list is as follows:
 
-## Exploratory Data Analysis
-
-## Model Building
-
+*	135
+*	335i
+*	535i
+*	1M
+*	335is 
+*	X6 xDrive35i
+*	Z4 sDrive35i
+*	F01 740i
+*	Alpina B3
+*	Alpina B3 S
+*	Alpina B3 GTS
