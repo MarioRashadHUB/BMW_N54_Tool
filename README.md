@@ -8,6 +8,9 @@
 ## Application Link:
 https://share.streamlit.io/mariorashadhub/bmw_n54_tool/app.py
 
+## Published Article on Application:
+https://medium.com/@mariorashad.paul/i-created-a-web-application-for-bmw-n54-car-enthusiasts-7c0dd463df2d
+
 ## Code and Resources Used 
 **Python Version:** 3.9.7
 
